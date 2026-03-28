@@ -1,15 +1,16 @@
 # Task 00 - Project Setup
 
 ## Objetivo
+
 Criar estrutura base do projeto seguindo Clean Architecture.
 
 ## Estrutura de Pacotes
 
 com.yourcompany.loyalty
-  domain
-  application
-  infrastructure
-  api
+domain
+application
+infrastructure
+api
 
 ## Requisitos Técnicos
 
