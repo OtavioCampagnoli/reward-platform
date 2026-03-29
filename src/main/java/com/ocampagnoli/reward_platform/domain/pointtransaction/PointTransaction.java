@@ -9,7 +9,7 @@ public class PointTransaction implements IPointTransaction {
     private final LocalDateTime createdAt;
     private final LocalDateTime expirationDate;
 
-    PointTransaction(BigDecimal amount, PointTransactionType type, LocalDateTime createdAt,
+    public PointTransaction(BigDecimal amount, PointTransactionType type, LocalDateTime createdAt,
             LocalDateTime expirationDate) {
         this.amount = amount;
         this.type = type;
